@@ -18,8 +18,6 @@ body {
     animation: flash 3s ease-in-out , rotate 3s ease-in-out, changeColor 3s ease-in-out;
     color: #66757F;
 }
-
-
 @keyframes flash {
     0% {
         font-size: 0px;
