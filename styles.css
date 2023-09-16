@@ -8,47 +8,29 @@ body {
 }
 
 .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 500px;
+}
+
+.box {
+    flex: 1 0;
+    border: 5px solid #66757F;
+    padding: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.flashing-text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 60px;
-    font-weight: bold;
-    animation: flash 3s ease-in-out , rotate 3s ease-in-out, changeColor 3s ease-in-out;
-    color: #66757F;
+a {
+    text-decoration: none;
+    color: #CCD6DD;
+    font-family: sans-serif;
 }
-@keyframes flash {
-    0% {
-        font-size: 0px;
-    }
-    100% {
-        font-size: 60px;
-    }
-}
-@keyframes rotate {
-    0% {
-        transform: rotate(0deg);
-    }
-
-    80% {
-        transform: rotate(370deg);
-    }
-    90% {
-        transform: rotate(350deg);
-    }
-    100% {
-        transform: rotate(360deg);
-    }
-}
-@keyframes changeColor {
-    0% {
-        color: #292F33; 
-    }
-    50% {
-        color: #CCD6DD;  
-    }
-    100% {
-        color: #66757F; 
-    }
+h1 {
+    color: #CCD6DD;
+    font-family: sans-serif;
 }

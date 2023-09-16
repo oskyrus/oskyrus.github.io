@@ -1,62 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
-    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            font-family: sans-serif;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        #text {
-            font-size: 24px;
-            text-align: center;
-        }
-        #image {
-            display: none;
-            text-align: center;
-            animation: spin 5s linear infinite; 
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
-    </style>
+    <title>meme site</title>
+  	<link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <div id="text">
-        <p>It all belongs to the other side</p>
+    
+    <div class="container">
+        <h1>Witaj na tej świetnej stronie</h1>
+        <div class="box"><a href="smurfcat.html">Smerf</a></div>
+        <div class="box"><a href="">...</a></div>
+        <div class="box"><a href="">...</a></div>
+        <div class="box"><a href="">...</a></div>
+        <div class="box"><a href="">...</a></div>
+        <div class="box"><a href="">...</a></div>
+        <div class="box"><a href="">...</a></div>
+        <div class="box"><a href="">...</a></div>
+        <div class="box"><a href="">...</a></div>
     </div>
-    <div id="image">
-        <img src="https://ih0.redbubble.net/image.5225084192.5486/raf,360x360,075,t,fafafa:ca443f4786.jpg" alt="Obrazek">
-    </div>
-
-    <audio id="music" src="https://dl.sndup.net/tcqb/we%20love%20we%20live%20we%20lie.MP3" autoplay></audio>
-
-    <script>
-        setTimeout(function () {
-            document.getElementById("text").innerHTML = "<p>It all belongs to the other side</p>";
-            setTimeout(function () {
-                document.getElementById("text").innerHTML = "<p>We live</p>";
-                setTimeout(function () {
-                 document.getElementById("text").innerHTML = "<p>We love</p>";
-                    setTimeout(function () {
-                        document.getElementById("text").innerHTML = "<p>We lie</p>";
-                        setTimeout(function () {
-                            document.getElementById("text").style.display = "none";
-                            document.getElementById("image").style.display = "block";
-                        }, 1000); 
-                  }, 1000); 
-                }, 1000); 
-         }, 1000); 
-        }, 4000);
-    </script>
 </body>
 </html>
