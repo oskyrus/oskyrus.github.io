@@ -13,7 +13,7 @@ body {
 
 .flashing-text {
     font-family: 'Roboto', sans-serif;
-    font-size: 80px;
+    font-size: 60px;
     font-weight: bold;
     animation: flash 3s ease-in-out , rotate 3s ease-in-out, changeColor 3s ease-in-out;
     color: #66757F;
@@ -23,7 +23,7 @@ body {
         font-size: 0px;
     }
     100% {
-        font-size: 80px;
+        font-size: 60px;
     }
 }
 @keyframes rotate {
