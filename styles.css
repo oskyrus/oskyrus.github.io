@@ -1,36 +1,60 @@
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+body, h1, h2, p {
     margin: 0;
-    background-color: #292F33;
+    padding: 0;
 }
 
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
-    max-width: 500px;
-}
-
-.box {
-    flex: 1 0;
-    border: 5px solid #66757F;
-    padding: 50px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body {
+    background-color: #010100;
 }
 
 a {
+    color: #969696;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
     text-decoration: none;
-    color: #CCD6DD;
-    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
 }
-h1 {
-    color: #CCD6DD;
-    font-family: sans-serif;
+
+.oskyrus {
+    display: flex;
+    justify-content: left;
+    background-color: #0c0c0c;
+    height: 80px;
 }
+
+.projekty {
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.j {
+    
+}
+
+.jhref {
+    justify-content: left;
+}
+
+.j img {
+    height: 300px;
+    width: 500px;
+    display: flex;
+    text-align: left; 
+    margin: 1 flex; 
+}
+
+.opis {
+    color: #969696;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    display: flex;
+    justify-content: left;
+
+    padding-left: 20px;
+
+}
+
