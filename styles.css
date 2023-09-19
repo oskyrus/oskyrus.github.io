@@ -1,20 +1,36 @@
 body, h1, h2, p {
     margin: 0;
     padding: 0;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
 }
 
 body {
     background-color: #010100;
 }
-.ig1 {
 
+.ig1 {
+    position: fixed;
+    top: 1;
+    right: 0;
+
+    padding: 6px;
 }
 
+.ig {
+    background-color: #111111;
+    justify-content: right;
+    height: 100px;
+    width: 100px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+
+
 .oskyrus1 {
- align-items: center;
- justify-content: center;
+    align-items: left;
+    justify-content: left;
 }
 
 .github {
@@ -34,40 +50,35 @@ body {
     background-color: #111111;
     text-decoration: none;
     display: flex;
-    justify-content: center;
+
 }
+
 .napisgora {
-    
+
     justify-content: center;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     width: auto;
     max-height: 100%;
 }
-.ig {
-    background-color: #111111;
-    display: flex;
-    justify-content: left;
-    height: 100px;
-    width: 100px;
-    max-width: 100%; 
-    max-height: 100%;
-    height: auto;
 
-}
+
+
 .projekty {
     padding: 10px;
     display: grid;
-    grid-template-columns: repeat(3, 0fr); /* Dwie kolumny o równej szerokości */
-    gap: 10px; 
+    grid-template-columns: repeat(3, 0fr);
+    /* Dwie kolumny o równej szerokości */
+    gap: 10px;
     max-width: 100%;
-    width: auto; 
+    width: auto;
     height: auto;
     max-height: 100%;
+
     @media (max-width: 400px) {
         grid-template-columns: repeat(1, 1fr);
     }
-    
+
 }
 
 
@@ -78,12 +89,12 @@ body {
 
 .kotsmerf img {
     width: auto;
-    max-width: 100%; 
+    max-width: 100%;
     height: auto;
     max-height: 100%;
     display: flex;
-    text-align: left; 
-    margin: 1 flex; 
+    text-align: left;
+    margin: 1 flex;
 }
 
 .opis {
@@ -106,8 +117,8 @@ body {
     height: 300px;
     width: 500px;
     display: flex;
-    text-align: left; 
-    margin: 1 flex; 
+    text-align: left;
+    margin: 1 flex;
 }
 
 .PLACEHOLDER {
@@ -120,7 +131,7 @@ body {
 
     padding-left: 20px;
     max-width: 100%;
-    width: auto; 
+    width: auto;
     height: auto;
     max-height: 100%;
 }
