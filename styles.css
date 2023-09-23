@@ -1,7 +1,7 @@
-body, h1, h2, p {
+body, h1 {
     margin: 0;
     padding: 0;
-    max-width: 100%;
+    max-width: 100%; 
     height: auto;
 }
 
@@ -9,129 +9,85 @@ body {
     background-color: #010100;
 }
 
-.ig1 {
-    position: fixed;
-    top: 1;
-    right: 0;
-
-    padding: 6px;
-}
-
-.ig {
-    background-color: #111111;
-    justify-content: right;
-    height: 100px;
-    width: 100px;
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
-}
-
-
-.oskyrus1 {
-    align-items: left;
-    justify-content: left;
-}
-
-.github {
-    color: #969696;
+header {
+    list-style-type: none;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
     display: flex;
     justify-content: center;
-    max-width: 100%;
-    max-height: 100%;
-    height: auto;
+}
+  
+header h1 {
+    margin: 0;
+    padding: 0;
+    max-width: 100%; 
     height: auto;
 }
+header a {
+    color: #969696;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+header h1:nth-child(1) {
+    margin-right: 10px;
+}
 
-.oskyrus {
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     background-color: #111111;
+
+} 
+
+nav a {
+    display: block;
+    padding: 8px;
     text-decoration: none;
-    display: flex;
-
 }
-
-.napisgora {
-
-    justify-content: center;
-    max-width: 100%;
-    height: auto;
+nav img {
+    height: 60px;
     width: auto;
-    max-height: 100%;
+    max-width: auto;
+    max-height: auto;
 }
 
-
-
-.projekty {
-    padding: 10px;
+section {
     display: grid;
-    grid-template-columns: repeat(3, 0fr);
-    /* Dwie kolumny o równej szerokości */
-    gap: 10px;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    max-height: 100%;
+  grid-template-columns: repeat(2, 0fr);
+  grid-gap: 10px;
+  }
 
-    @media (max-width: 400px) {
-        grid-template-columns: repeat(1, 1fr);
-    }
-
+article {
+    margin: 10px;
 }
 
-
-
-.jhref {
-    justify-content: left;
-}
-
-.kotsmerf img {
-    width: auto;
-    max-width: 100%;
-    height: auto;
-    max-height: 100%;
-    display: flex;
-    text-align: left;
-    margin: 1 flex;
-}
-
-.opis {
-    color: #969696;
-    font-size: 20px;
-    font-family: 'Roboto', sans-serif;
+section a {
     text-decoration: none;
-    display: flex;
-    justify-content: left;
-
-    padding-left: 20px;
-
 }
-
-.dhref {
-    justify-content: left;
-}
-
-.dhref img {
+article img {
     height: 300px;
     width: 500px;
-    display: flex;
-    text-align: left;
-    margin: 1 flex;
+    max-width: auto;
+    max-height: auto;
 }
 
-.PLACEHOLDER {
+article h2,p {
     color: #969696;
-    font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    display: flex;
-    justify-content: left;
-
-    padding-left: 20px;
-    max-width: 100%;
-    width: auto;
-    height: auto;
-    max-height: 100%;
 }
+
+
+/* @media only screen and (max-width: 600px) {
+    article img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+*/
