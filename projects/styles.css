@@ -1,0 +1,58 @@
+body {
+    font-family: "AR One Sans", sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+    background: #3C3FB1;
+    font: 0.8em "AR One Sans", sans-serif;
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    align-self: center;
+}
+a {
+    text-decoration: none;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    background: #ECEFE5;
+    border-radius: 26px;
+    box-shadow: 20px 20px 60px #b39292,
+                -20px -20px 60px #0f0e0e;
+    width: 25em;
+    height: 40em;
+}
+img {
+    display: flex;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+h1 {
+    font-size: 21px;
+    margin-top: 5px;
+    margin-bottom: -20px;
+    color: #333333;
+}
+
+h2 {
+    margin-left: 10px;
+    color: #555555;
+}
+ul {
+    color: #555555;
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+li {
+    margin-bottom: 0px;
+}

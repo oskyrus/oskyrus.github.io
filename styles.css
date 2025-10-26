@@ -1,0 +1,120 @@
+body {
+    font-family: "AR One Sans", sans-serif;
+    line-height: 1;
+    margin: 0;
+    padding: 0;
+
+    font: 0.8em "AR One Sans", sans-serif;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    margin: 0;
+    padding: 1px;
+    background-color: #ECEFE5;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+}
+
+
+.navbar a {
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #333333;
+    color: #FFFFFF;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background: #3C3FB1;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    align-self: center;
+
+
+}
+
+.container {
+    
+    display: flex;
+    flex-direction: column;
+    padding: 18px;
+    background: #ECEFE5;
+    border-radius: 26px;
+    box-shadow: 20px 20px 60px #b39292,
+                -20px -20px 60px #0f0e0e;
+    width: 25em;
+    height: 35em;
+}
+img {
+    display: flex;
+    border-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    height: 360px;
+}
+
+header h1 {
+    margin-top: 5px;
+    margin-bottom: -20px;
+    color: #333333;
+}
+
+header h2 {
+    margin-left: 10px;
+    color: #555555;
+}
+.fun-facts {
+    color: #555555;
+    list-style-type: none;
+    margin-top: -10px;
+    margin-left: -20px;
+}
+.lista {
+    margin-bottom: 0px;
+}
+
+main {
+    display: block;
+    padding: 20px;
+    color: #333333;
+    background-color: #FFFFFF;
+
+}
+
+.aboutmeee {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main h1 {
+    text-align: left;
+}
+
+main p {
+    margin-top: -10px;
+    text-align: left;
+    line-height: 1.6;
+}
